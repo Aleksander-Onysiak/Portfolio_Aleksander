@@ -4,10 +4,10 @@
         
         <main class="about">
             <header class="about__header">
-                <h1 class="about__title"><?= get_the_title(); ?></h1>
+                <h1 role="heading" aria-level="1" class="about__title"><?= get_the_title(); ?></h1>
             </header>
             <section class="about__intro">
-                <h2 class="sro">Introduction</h2>
+                <h2 role="heading" aria-level="2" class="sro">Introduction</h2>
                 <?= get_the_content(); ?>
             </section>
         </main>

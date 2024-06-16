@@ -1,0 +1,120 @@
+/*
+Theme Name: AO - Portfolio
+Author: Aleksander Onysiak
+Author URI: https://aleksanderonysiak.be
+Description: Ceci est un thème de test.
+Version: 1.0
+Requires at least: 6.4
+Tested up to: 6.4
+Requires PHP: 8.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentytwenty
+*/
+
+@use "../css/settings/settings.scss" as s;
+
+
+@import 'src/css/settings/form.scss';
+@import 'src/css/settings/fonts.scss';
+@import "src/variables.scss";
+@import "src/css/sections/project.scss";
+@import "src/css/sections/hobby.scss";
+@import "src/css/reset.scss";
+@import "src/css/sections/schools.scss";
+@import "src/css/sections/post.scss";
+@import "src/css/sections/footer.scss";
+
+
+.nav {
+  &__links-list {
+    @media(min-width: 768px) {
+      display: flex;
+      flex-direction: row;
+      font-size: 32px;
+    }
+  }
+&__container{
+padding: 1em;
+}
+  &_title {
+    font-size: 1px;
+  }
+
+  &__link {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    @media(min-width: 768px) {
+      font-size: 1.2em;
+      margin: 0.5em 0.5em;
+      width: 1fr;
+      &:first-of-type{
+        margin-left: 3em;
+      }
+    }
+  }
+}
+
+form {
+  @include s.NunitoRegular;
+}
+
+#text {
+  margin: 10px 0;
+
+  color: #cccccc;
+}
+
+a {
+color: #FFFFFF;
+  &:hover, &:active{
+    color: #F09000;
+  }
+}
+
+
+body {
+  background-color: black;
+  font-size: 16px;
+}
+
+.portfolio__title {
+  font-size: 32px;
+  padding: 0.5em;
+  color: #fdff00;
+}
+.quicksearch{
+  &__field{
+    font-size: 1em;
+  }
+  &__btn{
+    font-size: 0.75em;
+  }
+  &__input{
+font-size: 0.75em;
+  }
+  &__label{
+    font-size: 0.75em;
+  }
+  @media (min-width: 768px){
+    &__field{
+      padding: 0.5em 3em;
+      margin-left: 5em;
+    }
+    &__btn{
+      padding: 1em 2em;
+      margin-left: 1em;
+    }
+    &__input{
+      padding: 0.5em 8em;
+      font-size: 18px;
+    }
+    &__label{
+      padding: 0.5em 1em;
+      font-size: 1.5em;
+    }
+  }
+}@media (min-width: 768px){
+
+}

@@ -1,0 +1,16 @@
+.DS_Store
+.idea/
+node_modules/
+/*
+!.gitignore
+!README.md
+!package.json
+!webpack.mix.js
+!/wp-content/themes/ao-portfolio/dist
+
+!/wp-content
+/wp-content/*
+!/wp-content/themes
+/wp-content/themes/*
+!/wp-content/themes/ao-portfolio
+/wp-content/themes/ao-portfolio/public

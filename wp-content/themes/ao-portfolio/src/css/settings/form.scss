@@ -1,10 +1,11 @@
-.form {
+.contact {
+    font-size: 16px;
     display: block;
     padding: 2em 0;
 
     &__title {
         font-weight: bold;
-        font-size: 1.2em;
+        font-size: 32px;
         margin-bottom: 1em;
     }
 
@@ -23,9 +24,15 @@
     &__field {
         display: block;
         width: 100%;
-
+        caret-color: red;
         &--half {
             width: calc(50% - 0.5em);
         }
+    }
+}
+input, textarea{
+    margin:0.5em 0 1em 1em ;
+
+    @media(min-width: 768px){
     }
 }

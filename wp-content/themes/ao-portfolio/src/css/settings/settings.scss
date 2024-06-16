@@ -1,0 +1,22 @@
+
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-display: fallback;
+  src: url("src/font/Nunito-VariableFont_wght.ttf") format("truetype");
+}
+
+@mixin NunitoBold {
+  font-family: "Nunito", Helvetica, Arial, Roboto, "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+@mixin NunitoExtraBold {
+  font-family: "Nunito", Helvetica, Arial, Roboto, "Open Sans", sans-serif;
+  font-weight: 800;
+}
+
+@mixin NunitoRegular {
+  font-family: "Nunito", Helvetica, Arial, Roboto, "Open Sans", sans-serif;
+  font-weight: 400;
+}

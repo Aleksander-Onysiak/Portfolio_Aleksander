@@ -26,7 +26,14 @@ register_post_type('message', [
 	'supports' => ['title', 'editor'],
 ]);
 
-// Enregistrer une taxonomie personnalisée :
+register_post_type('post', [
+	'label' => 'post',
+	'description' => 'Mes posts',
+	'public' => true,
+	'menu_position' => 20,
+	'menu_icon' => 'dashicons-email', // https://developer.wordpress.org/resource/dashicons
+	'supports' => ['title', 'editor'],
+]);
 
 
 // Fonctions propres au thème :

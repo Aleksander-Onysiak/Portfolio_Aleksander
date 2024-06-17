@@ -1,5 +1,6 @@
 {
     "/dist/js/main.js": "/dist/js/main.js",
+    "/dist/css/style.css": "/dist/css/style.css",
     "/dist/fonts/Evil Empire.otf": "/dist/fonts/Evil Empire.otf",
     "/dist/fonts/Evil Empire.ttf": "/dist/fonts/Evil Empire.ttf",
     "/dist/fonts/Evil EmpireFont_wght.ttf": "/dist/fonts/Evil EmpireFont_wght.ttf",
@@ -21,5 +22,11 @@
     "/dist/img/peche.jpeg": "/dist/img/peche.jpeg",
     "/dist/img/society.jpg": "/dist/img/society.jpg",
     "/dist/img/tourisme.jpg": "/dist/img/tourisme.jpg",
-    "/dist/css/style.css": "/dist/css/style.css"
+    "/dist/img/Basic-Fit_logo-min.png": "/dist/img/Basic-Fit_logo-min.png",
+    "/dist/img/clone-min.jpg": "/dist/img/clone-min.jpg",
+    "/dist/img/collection-min.jpg": "/dist/img/collection-min.jpg",
+    "/dist/img/consoles-min.jpeg": "/dist/img/consoles-min.jpeg",
+    "/dist/img/peche-min.jpeg": "/dist/img/peche-min.jpeg",
+    "/dist/img/society-min.jpg": "/dist/img/society-min.jpg",
+    "/dist/img/tourisme-min.jpg": "/dist/img/tourisme-min.jpg"
 }

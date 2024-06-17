@@ -286,7 +286,7 @@ p, h1, h2, h3, label {
     margin: 1em;
     display: flex;
     min-width: 160px;
-    min-height: 544px;
+    min-height: 444px;
     flex-direction: column;
   }
   .careers__container-infos {
@@ -489,27 +489,32 @@ footer {
   color: #fdff00;
 }
 
+.nav__container {
+  padding: 1em;
+  position: relative;
+}
 @media (min-width: 768px) {
   .nav__links-list {
     display: flex;
     flex-direction: row;
-    font-size: 32px;
+    font-size: 16px;
+    position: absolute;
+    bottom: 1em;
+    right: 5em;
   }
-}
-.nav__container {
-  padding: 1em;
 }
 .nav_title {
   font-size: 1px;
 }
 .nav__link {
   font-size: 20px;
+  padding: 0.5em 1em;
   display: flex;
   flex-direction: column;
 }
 @media (min-width: 768px) {
   .nav__link {
-    font-size: 1.2em;
+    font-size: 1em;
     margin: 0.5em 0.5em;
     width: 1fr;
   }

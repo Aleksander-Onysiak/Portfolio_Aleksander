@@ -1,16 +1,73 @@
-    <div class="footer">
-        <?php 
-        // Afficher le menu de pied de page "façon Wordpress"
-        wp_nav_menu(['theme_location' => 'footer']); 
-        ?>
-
-
-        <?php 
-        // Afficher le menu de pied de page "façon MVC"
-        foreach(dw_get_navigation_links('footer') as $link): ?>
-        <a href="<?= $link->url ?>" class="nav__link"><?= $link->label ?></a>
-        <?php endforeach; ?>
+<footer class="footer">
+    <section class="footer__section">
+        <h2 hidden>Footer</h2>
+        <article class="footer__div">
+            <h3 class="footer__div__title">Aleksander Onysiak</h3>
+            <p class="footer__div__p">Vous consultez mon footer!</p>
+            <p class="footer__div__p"> N'hesitez pas à me suivre sur mes réseaux et me contacter via ceux-ci !</p>
+        </article>
+        <article class="footer__menu" itemtype="https://schema.org/PostalAddress">
+            <h3 class="footer-menu__sublist__title">Mes coordonnées</h3>
+            <ul itemprop="address" itemscope="" class="footer-menu__sublist">
+                <li class="footer-menu__sublist-item">
+                    Aleksander Onysiak
+                </li>
+                <li class="footer-menu__sublist-item">
+                    <span itemprop="telephone">+32 (0)471 21 32 47</span>
+                </li>
+                <li class="footer-menu__sublist-item">
+                    <a href="" itemprop="email"
+                       class="footer-menu__sublist-item__content">contact@aleksanderonysiak.com</a>
+                </li>
+                <li class="footer-menu__sublist-item" data-adress="rue" itemprop="addressLocality">
+                    Rue des Filières 2
+                </li>
+                <li class="footer-menu__sublist-item">
+                    <span data-adress="code postal" itemprop="postalCode">4651</span><span data-adress="ville"
+                                                                                           itemprop="addressRegion"> Battice</span>
+                </li>
+                <li class="footer-menu__sublist-item">
+                    <span data-adress="province">Province de Liège</span>
+                </li>
+                <li class="footer-menu__sublist-item">
+                    <span data-adress="pays">Belgique</span>
+                </li>
+            </ul>
+        </article>
+        <article class="footer__menu" itemtype="https://schema.org/PostalAddress">
+            <h3 class="footer-menu__sublist__title cot">Ecoles cotoyées</h3>
+            <ul itemscope itemtype="https://schema.org/" class="footer-menu__sublist">
+                <li class="footer-menu__sublist-item" itemprop="">
+                    <a href="https://monecolemonmetier.cfwb.be/memm-options/metier/auxiliaire-administratif-et-daccueilauxiliaire-administrative-et-daccueil/" title="Ceci est un lien qui vous emmène sur le site du IPH!" class="footer-menu__sublist-item__content">IPH Herve</a>
+                </li>
+                <li class="footer-menu__sublist-item" itemprop="">
+                    <a href="https://www.hech.be/fr/campus/charlemagne-verviers-campus-de-verviers" class="footer-menu__sublist-item__content" title="Ceci est un lien qui vous emmène sur le site de la HECH!" >HECH Verviers</a>
+                </li>
+                <li class="footer-menu__sublist-item" itemprop="">
+                    <a href="https://www.helmo.be/campus/helmo-verviers" class="footer-menu__sublist-item__content" title="Ceci est un lien qui vous emmène sur le site de HELMo!" >HELMo Verviers</a>
+                </li>
+                <li class="footer-menu__sublist-item" itemprop="">
+                    <a href="https://www.hepl.be/fr" class="footer-menu__sublist-item__content" title="Ceci est un lien qui vous emmène sur le site de la HEPL!" >HEPL Seraing</a>
+                </li>
+            </ul>
+        </article>
+        <article class="footer__menu" itemtype="https://schema.org/PostalAddress">
+            <h3 class="footer-menu__sublist__title soc">Mes réseaux sociaux</h3>
+            <ul itemscope itemtype="https://schema.org/" class="footer-menu__sublist">
+                <li class="footer-menu__sublist-item" itemprop="">
+                    <a href="https://github.com/Aleksander-Onysiak" class="footer-menu__sublist-item__content" title="Ceci est un lien qui vous emmène vers mon profil GitHub!">GitHub</a>
+                </li>
+                <li class="footer-menu__sublist-item" itemprop="">
+                    <a href="https://www.linkedin.com/in/aleksander-onysiak-936032236/" class="footer-menu__sublist-item__content" title="Ceci est un lien qui vous emmène vers mon profil Linkedin !">Linkedin</a>
+                </li>
+            </ul>
+        </article>
+    </section>
+    <div>
+        <p>&copy; 2024 Aleksander Onysiak. Tous droits réservés.</p>
     </div>
-    <?php wp_footer(); ?>
+</footer>
+<?php wp_footer(); ?>
+<script src="/dist/js/main.js"></script>
 </body>
 </html>

@@ -27,26 +27,32 @@ Text Domain: twentytwenty
 
 
 .nav {
+  &__container{
+    padding: 1em;
+    position: relative;
+  }
+
   &__links-list {
     @media(min-width: 768px) {
       display: flex;
       flex-direction: row;
-      font-size: 32px;
+      font-size: 16px;
+      position: absolute;
+      bottom: 1em;
+      right: 5em;
     }
   }
-&__container{
-padding: 1em;
-}
   &_title {
     font-size: 1px;
   }
 
   &__link {
     font-size: 20px;
+    padding: 0.5em 1em;
     display: flex;
     flex-direction: column;
     @media(min-width: 768px) {
-      font-size: 1.2em;
+      font-size: 1em;
       margin: 0.5em 0.5em;
       width: 1fr;
       &:first-of-type{

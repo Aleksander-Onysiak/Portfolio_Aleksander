@@ -12,7 +12,7 @@ const mix = require('laravel-mix');
  */
 
 mix.js('src/js/main.js', 'dist/js/main.js')
-  .sass('src/css/style.scss', 'dist/css/')
+  .sass('src/css/main.scss', 'dist/css/style.css')
   .copy('src/font', 'dist/fonts')
   .copy('img', 'dist/img')
   .options({

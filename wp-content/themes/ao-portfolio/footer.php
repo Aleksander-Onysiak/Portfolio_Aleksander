@@ -16,15 +16,14 @@
                     <span itemprop="telephone">+32 (0)471 21 32 47</span>
                 </li>
                 <li class="footer-menu__sublist-item">
-                    <a href="" itemprop="email"
-                       class="footer-menu__sublist-item__content">contact@aleksanderonysiak.com</a>
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDZPPJdpcLhlcHHKbPCLPNVTSZpRPFbSjcCfDMzkqxmGdtvFFvTBWNVFSwjZjCjnmjGTQkB" itemprop="email"
+                       class="footer-menu__sublist-item__content"><span class="DS">0</span> aleksander.onysiak.contact@gmail.com</a>
                 </li>
                 <li class="footer-menu__sublist-item" data-adress="rue" itemprop="addressLocality">
                     Rue des Filières 2
                 </li>
                 <li class="footer-menu__sublist-item">
-                    <span data-adress="code postal" itemprop="postalCode">4651</span><span data-adress="ville"
-                                                                                           itemprop="addressRegion"> Battice</span>
+                    <span data-adress="code postal" itemprop="postalCode">4651</span><span data-adress="ville" itemprop="addressRegion"> Battice</span>
                 </li>
                 <li class="footer-menu__sublist-item">
                     <span data-adress="province">Province de Liège</span>
@@ -38,16 +37,16 @@
             <h3 class="footer-menu__sublist__title cot">Ecoles cotoyées</h3>
             <ul itemscope itemtype="https://schema.org/" class="footer-menu__sublist">
                 <li class="footer-menu__sublist-item" itemprop="">
-                    <a href="https://monecolemonmetier.cfwb.be/memm-options/metier/auxiliaire-administratif-et-daccueilauxiliaire-administrative-et-daccueil/" title="Ceci est un lien qui vous emmène sur le site du IPH!" class="footer-menu__sublist-item__content">IPH Herve</a>
+                    <a href="https://monecolemonmetier.cfwb.be/memm-options/metier/auxiliaire-administratif-et-daccueilauxiliaire-administrative-et-daccueil/" title="Ceci est un lien qui vous emmène sur le site du IPH!" class="footer-menu__sublist-item__content"> <span class="atat">#</span> IPH Herve</a>
                 </li>
                 <li class="footer-menu__sublist-item" itemprop="">
-                    <a href="https://www.hech.be/fr/campus/charlemagne-verviers-campus-de-verviers" class="footer-menu__sublist-item__content" title="Ceci est un lien qui vous emmène sur le site de la HECH!" >HECH Verviers</a>
+                    <a href="https://www.hech.be/fr/campus/charlemagne-verviers-campus-de-verviers" class="footer-menu__sublist-item__content" title="Ceci est un lien qui vous emmène sur le site de la HECH!" ><span class="atat">#</span> HECH Verviers</a>
                 </li>
                 <li class="footer-menu__sublist-item" itemprop="">
-                    <a href="https://www.helmo.be/campus/helmo-verviers" class="footer-menu__sublist-item__content" title="Ceci est un lien qui vous emmène sur le site de HELMo!" >HELMo Verviers</a>
+                    <a href="https://www.helmo.be/campus/helmo-verviers" class="footer-menu__sublist-item__content" title="Ceci est un lien qui vous emmène sur le site de HELMo!" > <span class="atat">#</span> HELMo Verviers</a>
                 </li>
                 <li class="footer-menu__sublist-item" itemprop="">
-                    <a href="https://www.hepl.be/fr" class="footer-menu__sublist-item__content" title="Ceci est un lien qui vous emmène sur le site de la HEPL!" >HEPL Seraing</a>
+                    <a href="https://www.hepl.be/fr" class="footer-menu__sublist-item__content" title="Ceci est un lien qui vous emmène sur le site de la HEPL!" ><span class="atat">#</span> HEPL Seraing</a>
                 </li>
             </ul>
         </article>
